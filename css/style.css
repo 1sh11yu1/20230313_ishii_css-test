@@ -24,25 +24,28 @@ li{
 
 .text{
     font-size: 60px;
-    position: relative;
-    top: 365px;
+    transform: translate(0px, 5em);
+
 }
 
 .right{
     text-align: right;
-    position: relative;
-    top: 50px;
-    left: 50px;
     z-index: 10;
+}
+
+img{
+    width: 70vw;
+    height: 50vh;
+    position: relative;
 }
 
 .square::before {
     content: "";
     background-color: #17078c;
-    width: 730px;
-    height: 200px;
+    width: 70vw;
+    height: 20vh;
     position: absolute;
-    top: 50px;
+    top: 30%;
     left: -60px;
     transform: translate(0px, 250px);
     z-index: -10;
