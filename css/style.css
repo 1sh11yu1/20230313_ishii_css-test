@@ -23,8 +23,8 @@ li{
 }
 
 .text{
-    font-size: 60px;
-    transform: translate(0px, 5em);
+    font-size: 5vw;
+    transform: translate(0px, 9.2ch);
 
 }
 
@@ -34,19 +34,19 @@ li{
 }
 
 img{
-    width: 70vw;
+    width: 50vw;
     height: auto;
     position: relative;
+    transform: translate(0px, 3em);
 }
 
 .square::before {
     content: "";
     background-color: #17078c;
-    width: 70vw;
+    width: 80vw;
     height: 20vh;
     position: absolute;
-    top: 30%;
     left: -60px;
-    transform: translate(0px, 330px);
+    transform: translate(0px, -2em);
     z-index: -10;
 }
